@@ -1,0 +1,93 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.logo {
+    max-height: 50px;
+    margin: auto 0 auto 10px;
+}
+
+nav {
+    display: flex;
+    height: 69px;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: underline;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.nav-bar li {
+    margin: 0 2%;
+}
+
+.mission {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.tea {
+    width: 1000px;
+    margin: auto;
+}
+
+.photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.location-bg {
+    background-image: url(images/locations.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    padding: 70px;
+}
+
+.locations {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 15px 20px auto;
+    background-color: black;
+}
+
+.contact {
+    height: 200px;
+}
+
+footer {
+    text-align: left;
+    margin-left: 20px;
+}
